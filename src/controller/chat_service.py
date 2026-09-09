@@ -7,6 +7,7 @@ import json
 
 load_dotenv()
 
+
 client = Groq()
 
 

@@ -1,6 +1,7 @@
 from fastapi import APIRouter, Body
 from ..controller.chat_service import ChatService
 
+
 router = APIRouter(
     prefix="/chat",
     tags=["Chat"],
